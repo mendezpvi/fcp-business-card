@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #016A70;
+}
+
+.card {
+  margin: 200px auto;
+  padding: 50px;
+  inline-size: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFDD;
+  border-radius: 10px;
+  border-bottom: 8px solid #D2DE32;
+  box-shadow: 0 0 5px #D2DE32;
+  color: #016A70;
+}
+.avatar {
+  display: block;
+  inline-size: 150px;
+  block-size: 150px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 15px #D2DE32);
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+h2 {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+h3 {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
